@@ -8,7 +8,7 @@ const Sidebar = ({ selectedUser, setSelectedUser }) => {
 
   return (
     <div
-      className={`bg-[#8185B2]/10 h-full p-5 rounded-r-xl overflow-y-auto text-white ${selectedUser ? "max-md:hidden" : ""}`}
+      className={`bg-[#8185B2]/10 h-full p-5 rounded-r-xl overflow-y-auto text-white hide-scrollbar ${selectedUser ? "max-md:hidden" : ""}`}
     >
       <div className="pb-5">
         <div className="flex justify-between items-center">
